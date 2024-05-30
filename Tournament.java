@@ -36,6 +36,7 @@ abstract class Tournament {
                 registeredPlayers.add(newlyRegistered);
                 return true;
             }
+
         //System.out.print(registeredPlayers);
         return false;
     }
