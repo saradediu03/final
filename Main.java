@@ -34,8 +34,8 @@ public class Main {
         t2.registerPlayer(steve);
         t2.registerPlayer(billy);
 
-        t2.pair(bob, john);
-        t2.pair(steve, billy);
+        t2.pair(bob, steve);
+        t2.pair(john, billy);
         t2.makeSelection();
         System.out.println(t2);
     }
